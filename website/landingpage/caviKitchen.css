@@ -1,0 +1,33 @@
+img {
+	width: 100%; /* will take up 30% of the body */ 
+	height: 300px;
+	float: left;
+	/* 10% / 6 = 1.66 */ 
+	margin: 1.66%;
+	border-radius: 8px
+}
+
+p {
+	 font-family: 'Raleway', sans-serif;
+	 margin-left: 1.66%;
+	 font-size: 23px;
+	 font-weight: 800;
+	 text-transform: uppercase;
+	 border-bottom: 2px solid #f1f1f1;
+	 width: 30%;
+	 padding-bottom: 20px;
+}
+
+button {
+	padding-bottom: 0px;
+	background-color: transparent;
+	border: 0px solid transparent;
+	width: 20%;
+	height: 300px;
+
+}
+
+#logo {
+	background-color: transparent;
+	border: 0px solid white;
+}

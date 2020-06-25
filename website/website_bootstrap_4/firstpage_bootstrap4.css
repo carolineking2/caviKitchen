@@ -1,0 +1,182 @@
+
+body {
+	background: url(background.jpeg);
+	background-size: cover;
+	background-position: center;
+	font-family: 'Open Sans', serif;
+}
+
+#background_image {
+	background: url(background.jpeg);
+}
+
+html {
+	height: 100%;
+}
+
+/*making the search bar bigger*/
+
+input.form-control{ 
+	width: 600px!important;
+	border-color: green;
+}
+
+/*configuring the email input width*/
+input#emailInput{
+	max-width:15rem;
+}
+
+/*configuring the password input width*/
+input#passwordInput{
+	max-width:15rem;
+}
+
+/*.navbar-brand {
+	margin-right: 100%;
+	margin-left: 100%;
+}*/
+
+
+.search {
+	align-content: center;
+	padding-left: 10%;
+	padding-right: 15rem;
+	max-width:100rem;
+
+}
+#content {
+	text-align: left;
+	padding-top: 30%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.8),
+				0px 8px 13px rgba(0,0,0,0.6),
+				0px 18px 23px rgba(0,0,0,0.4);
+
+}
+
+
+
+.form-group {
+	/*max-width:50px;
+	text-align: center;
+	align-content: left;*/
+	/*padding-left: 5%;
+	padding-right: 5%;*/
+	border-radius: 10px;
+}
+
+#signup {
+	font-size: 2rem;
+	text-align: center;
+	background: rgba(222, 235, 228, 0.7);
+	/* background-size: 1000rem; */
+	border-radius: 20px;
+	/* background-clip: content-box; */
+	text-decoration-color: white;
+	margin-top: 50%;
+	margin-bottom: 15%;
+}
+
+#signup_text{
+	padding-top: 0%;
+	padding-right: 10%;
+	padding-left: 10%
+
+}
+
+
+.btn-email{
+	background: #35925d;
+	padding-right: 5%;
+	padding-left: 5%;
+	color: white;
+}
+
+.btn-facebook{
+	background: #3B5998;
+	font-size: 0.7em;
+	/*padding-right:5%;*/
+	/*padding-left: 5%;*/
+	color: white;
+	align-content: center;
+	/*margin-right: 5%;*/
+	margin-left: 3%;
+}
+
+#facebook_text{
+	padding-left: 25%;
+}
+
+
+.btn-google {
+	background: #DD4B39;
+	color: white;
+	padding-right:5%;
+	padding-left: 5%;
+	font-size: 0.7em;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	align-content: center;
+	margin-left: 3%;
+}
+
+#or {
+	padding-top: 5%
+	font-size: 10px;
+	color: white;
+}
+
+#stat {
+	text-align: center;
+	background: url(did_you_know_background.jpeg);
+	background-size: cover;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+#did_you_know {
+	font-size: 5rem;
+	text-decoration-color: black;
+}
+
+#statistic {
+	font-size: 2rem;
+	text-decoration-color: black;
+}
+
+#cavi_seeks {
+	font-size: 2rem;
+	text-align: center;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	background-color: white;
+	background-size: cover;
+}
+
+#learn_more_logo {
+	align-content: center;
+}
+
+#images {
+	padding-top: 10%;
+}
+
+#want_more_button {
+	padding-bottom: 5%;
+}
+
+
+h2 {
+	font-weight: 700;
+	font-size: 7em;
+	color: white;
+}
+
+h3 {
+	font-size: 4em;
+	color: white;
+}
+
+
+
+
